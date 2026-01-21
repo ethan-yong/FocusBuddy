@@ -9,6 +9,7 @@ dist/
 web-build/
 
 # Native
+.kotlin/
 *.orig.*
 *.jks
 *.p8
@@ -27,10 +28,6 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
-
-# local env files
-.env
-.env*.local
 
 # typescript
 *.tsbuildinfo
